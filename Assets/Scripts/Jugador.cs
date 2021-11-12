@@ -27,7 +27,7 @@ public class Jugador : MonoBehaviour
         choto.cargarashe();
     }
     void Start () {
-        contador.text = " " + puntajeJugador;
+        // contador.text = " " + puntajeJugador;
         
         choto = FindObjectOfType<Guardado>();
         choto.cargarashe();
