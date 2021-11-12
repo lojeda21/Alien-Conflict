@@ -1109,10 +1109,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scriptableObjects:
   - {fileID: 11400000, guid: ae0453865ddd56d4992e96cce8fd70e6, type: 2}
-  - {fileID: 11400000, guid: cf0a7c8b4ebb53145952ccf930c236ee, type: 2}
-  - {fileID: 11400000, guid: 51844d1c7340f2243a005911f83434e9, type: 2}
+  - {fileID: 11400000, guid: ac4abdfae9c58f144bc8b3e4244fba70, type: 2}
+  - {fileID: 11400000, guid: 4dc881c16731bae4eb15e0e301fcadf1, type: 2}
   - {fileID: 11400000, guid: 32712cca4bcd22246a7827f994fc53df, type: 2}
-  - {fileID: 11400000, guid: b3ace7b692ad0414bb44be2c89292f06, type: 2}
+  - {fileID: 11400000, guid: c5cc47a70a3a2cb46b201151d8ee020b, type: 2}
   gunDisplay: {fileID: 544922755}
 --- !u!4 &8584143366111839488
 Transform:

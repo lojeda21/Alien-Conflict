@@ -18,4 +18,4 @@ MonoBehaviour:
   bulletsPorTap: 1
   reloadTime: 1
   magazineSize: 20
-  modeloArma: {fileID: 919132149155446097, guid: 3154ef472f3815a4caa841c2f3641f21, type: 3}
+  modeloArma: {fileID: 919132149155446097, guid: 8b9d59252431fea45b44bd9a32e3f9af, type: 3}

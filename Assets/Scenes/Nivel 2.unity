@@ -109,7 +109,7 @@ NavMeshSettings:
     agentRadius: 0.5
     agentHeight: 2
     agentSlope: 45
-    agentClimb: 0.4
+    agentClimb: 0.26
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
     minRegionArea: 2
@@ -4038,7 +4038,7 @@ MonoBehaviour:
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 512
-  salud: 250
+  salud: 750
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 5
   timeBetweenAttacks: 1
@@ -9552,15 +9552,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 67b7e140c3a8ad24a8465f041aca6b1f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 22.68
+      value: 17.11
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 67b7e140c3a8ad24a8465f041aca6b1f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -19.029799
+      value: -18.76
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 67b7e140c3a8ad24a8465f041aca6b1f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -38
+      value: -30.62
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 67b7e140c3a8ad24a8465f041aca6b1f, type: 3}
       propertyPath: m_LocalRotation.x
@@ -9622,6 +9622,18 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: a8b527715ddc78043b49d08daedd4d5c, type: 2}
+    - target: {fileID: 8729980956086223254, guid: 67b7e140c3a8ad24a8465f041aca6b1f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8729980956086223254, guid: 67b7e140c3a8ad24a8465f041aca6b1f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 188
+      objectReference: {fileID: 0}
+    - target: {fileID: 8729980956086223254, guid: 67b7e140c3a8ad24a8465f041aca6b1f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67b7e140c3a8ad24a8465f041aca6b1f, type: 3}
 --- !u!1 &1505887017

@@ -25,7 +25,7 @@ public class elegirNivel : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Vector3.Distance(transform.position, player.transform.position) < 3.0f) {
+        if(Vector3.Distance(transform.position, player.transform.position) < 4.0f) {
             pantalla.SetActive(true);
             if(Input.GetKeyDown(KeyCode.E)) {
                 m=1;

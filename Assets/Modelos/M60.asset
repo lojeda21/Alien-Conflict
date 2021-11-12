@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 699af89ed88dbd34d9af417bd13cb342, type: 3}
-  m_Name: NEGEV
+  m_Name: M60
   m_EditorClassIdentifier: 
-  nombre: Negev
+  nombre: M60
   "da\xF1o": 0
   spread: 2
   bulletsPorTap: 1
   reloadTime: 5
   magazineSize: 50
-  modeloArma: {fileID: 919132149155446097, guid: 1fbbe5eb7124baa49a0041696ac1c56b, type: 3}
+  modeloArma: {fileID: 919132149155446097, guid: 590b8282b1a382f40af52d0b5e11f9ed, type: 3}
