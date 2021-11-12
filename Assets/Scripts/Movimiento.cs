@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Movimiento : MonoBehaviour
 {
+    public Animator animator;
     [SerializeField] public float speed = 6.0f;
     private Vector3 movimiento = new Vector3(0,0,0);
     private Vector3 movimientoZ;
@@ -31,6 +32,7 @@ public class Movimiento : MonoBehaviour
 
     private void Start()
     {
+        animator = GetComponent<Animator>();
         // Cache the camera, Camera.main is an expensive operation.
         mainCamera = Camera.main;
     }
@@ -46,16 +48,26 @@ public class Movimiento : MonoBehaviour
         
         if(Input.GetKey(KeyCode.S)){
             movimientoZ = new Vector3(0,0,1);
+            animator.SetBool("Backward", true);
         }
         if(Input.GetKey(KeyCode.D)){
             movimientoX = new Vector3(-1,0,0);
+            animator.SetBool("Right", true);
         }
         if(Input.GetKey(KeyCode.W)){
             movimientoZ = new Vector3(0,0,-1);
+            animator.SetBool("Forward", true);
         }
         if(Input.GetKey(KeyCode.A)){
             movimientoX = new Vector3(1,0,0);
+            animator.SetBool("Left", true);
 
+        }
+        if(Input.anyKey == false){
+            animator.SetBool("Forward", false);
+            animator.SetBool("Backward", false);
+            animator.SetBool("Right", false);
+            animator.SetBool("Left", false);
         }
         movimiento = movimientoZ + movimientoX;
         movimiento.Normalize();
